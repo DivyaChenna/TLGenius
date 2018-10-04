@@ -7,15 +7,26 @@
 //
 
 import UIKit
+import SystemConfiguration
+
+//var reachability:Reachability!;
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Thread.sleep(forTimeInterval:3.0)
+        
+        if Reachability.isConnectedToNetwork() {
+            print("Network Available")
+        } else {
+            print("Network Not Available")
+        }
+        
         return true
     }
 

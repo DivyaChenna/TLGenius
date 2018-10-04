@@ -7,13 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1803D395214B8BDE009E7BC7 /* LivingRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803D394214B8BDE009E7BC7 /* LivingRoomViewController.swift */; };
+		18109C6B213EB83D00BACECD /* SelectBandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18109C6A213EB83D00BACECD /* SelectBandViewController.swift */; };
+		181BCE04213924DE00465354 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BCE03213924DE00465354 /* CreateGroupViewController.swift */; };
+		181FF072215A301100A233EB /* AdvanceSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FF071215A301100A233EB /* AdvanceSettingsVC.swift */; };
+		181FF076215A307600A233EB /* AdvanceSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FF075215A307600A233EB /* AdvanceSettingsCell.swift */; };
+		181FF079215A4F4300A233EB /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FF078215A4F4300A233EB /* NotificationsViewController.swift */; };
+		18346A1221367981006BE6BC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18346A1121367981006BE6BC /* Reachability.swift */; };
+		18346A1B2136AFFE006BE6BC /* DiscoveredBulbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18346A1A2136AFFE006BE6BC /* DiscoveredBulbsViewController.swift */; };
+		184911E1212E899400921FC0 /* AlertHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184911E0212E899400921FC0 /* AlertHistoryViewController.swift */; };
+		184911E3212E914600921FC0 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184911E2212E914600921FC0 /* PreferencesViewController.swift */; };
+		184911E5212EB48D00921FC0 /* WifiListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184911E4212EB48D00921FC0 /* WifiListViewController.swift */; };
+		18497B0C211ACF9A00D3B0F4 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18497B0B211ACF9A00D3B0F4 /* SliderCollectionViewCell.swift */; };
+		18497B0E211AD10300D3B0F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18497B0D211AD10300D3B0F4 /* LoginViewController.swift */; };
+		18497B10211B0A2B00D3B0F4 /* ForgotPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18497B0F211B0A2B00D3B0F4 /* ForgotPwdViewController.swift */; };
+		18497B12211B0A4000D3B0F4 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18497B11211B0A4000D3B0F4 /* RegistrationViewController.swift */; };
+		18497B14211B0A6D00D3B0F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18497B13211B0A6D00D3B0F4 /* HomeViewController.swift */; };
+		185407FB2158BA9A0002B5F3 /* EmergencyContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185407FA2158BA9A0002B5F3 /* EmergencyContactsViewController.swift */; };
+		185408002158C6EA0002B5F3 /* FAQVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185407FD2158C6EA0002B5F3 /* FAQVC.swift */; };
+		185408012158C6EA0002B5F3 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185407FE2158C6EA0002B5F3 /* HelpVC.swift */; };
+		185408022158C6EA0002B5F3 /* HowToVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185407FF2158C6EA0002B5F3 /* HowToVC.swift */; };
+		185408052158D37A0002B5F3 /* HowTotblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185408032158D3790002B5F3 /* HowTotblCell.swift */; };
+		185408062158D37A0002B5F3 /* HelptblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185408042158D3790002B5F3 /* HelptblCell.swift */; };
+		1854080B2158DB900002B5F3 /* GasSenseSubscriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854080A2158DB900002B5F3 /* GasSenseSubscriptionVC.swift */; };
+		185F31322137E34300FF9E7D /* BulbDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185F31312137E34300FF9E7D /* BulbDetailsViewController.swift */; };
 		1860BECE21196B4A00A03ED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860BECD21196B4A00A03ED6 /* AppDelegate.swift */; };
 		1860BED021196B4A00A03ED6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860BECF21196B4A00A03ED6 /* ViewController.swift */; };
-		1860BED321196B4A00A03ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860BED121196B4A00A03ED6 /* Main.storyboard */; };
 		1860BED521196B4C00A03ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1860BED421196B4C00A03ED6 /* Assets.xcassets */; };
 		1860BED821196B4C00A03ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860BED621196B4C00A03ED6 /* LaunchScreen.storyboard */; };
 		1860BEE321196B4D00A03ED6 /* TLGeniusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860BEE221196B4D00A03ED6 /* TLGeniusTests.swift */; };
 		1860BEEE21196B4D00A03ED6 /* TLGeniusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860BEED21196B4D00A03ED6 /* TLGeniusUITests.swift */; };
+		18762B48213EAF560046E028 /* AddRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18762B47213EAF560046E028 /* AddRoomViewController.swift */; };
+		18793CE0212D3BF1009A989F /* DiscoverHubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18793CDF212D3BF1009A989F /* DiscoverHubsViewController.swift */; };
+		18793CE2212D3FE1009A989F /* HubsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18793CE1212D3FE1009A989F /* HubsTableViewCell.swift */; };
+		18793CE4212D5EAC009A989F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18793CE3212D5EAC009A989F /* MenuViewController.swift */; };
+		18793CE6212D6B87009A989F /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18793CE5212D6B87009A989F /* SubscriptionViewController.swift */; };
+		1883553021229D5A006D99D6 /* EnterOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883552F21229D5A006D99D6 /* EnterOTPViewController.swift */; };
+		1883553221229F5F006D99D6 /* SetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883553121229F5F006D99D6 /* SetPasswordViewController.swift */; };
+		1887DFAE211C4AC10085690E /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887DFAD211C4AC10085690E /* OTPViewController.swift */; };
+		1887DFB0211C4BCB0085690E /* ResetPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887DFAF211C4BCB0085690E /* ResetPwdViewController.swift */; };
+		1887DFB7211C619E0085690E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887DFB6211C619E0085690E /* Utils.swift */; };
+		1887DFB9211C62740085690E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887DFB8211C62740085690E /* Constants.swift */; };
+		1887DFBB211C636F0085690E /* ConstantStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887DFBA211C636F0085690E /* ConstantStrings.swift */; };
+		1887DFBD211C799B0085690E /* MobileVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887DFBC211C799B0085690E /* MobileVerificationViewController.swift */; };
+		18902CD6213EAC3A0038B968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18902CD5213EAC390038B968 /* Main.storyboard */; };
+		18902CDC213EACEE0038B968 /* BandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18902CD7213EACEC0038B968 /* BandViewController.swift */; };
+		18902CDE213EACEE0038B968 /* CreateGroup1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18902CD9213EACED0038B968 /* CreateGroup1ViewController.swift */; };
+		18902CDF213EACEE0038B968 /* GroupsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18902CDA213EACED0038B968 /* GroupsListViewController.swift */; };
+		18939995213FCEC1001C8A2C /* BandSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18939994213FCEC1001C8A2C /* BandSignInViewController.swift */; };
+		18939997213FEDB7001C8A2C /* BandSubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18939996213FEDB7001C8A2C /* BandSubscriptionViewController.swift */; };
+		189AB5D821479A8600CEAACA /* MyRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AB5D721479A8600CEAACA /* MyRequestsViewController.swift */; };
+		189AB5DA2147B9B200CEAACA /* SendRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AB5D92147B9B200CEAACA /* SendRequestViewController.swift */; };
+		189AB5DD2147CD4E00CEAACA /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189AB5DC2147CD4E00CEAACA /* Contacts.framework */; };
+		32E3C998EAD0AA8734C76F62 /* Pods_TLGeniusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B365D76007C4D51E4C433CA /* Pods_TLGeniusUITests.framework */; };
+		60B3DE96E4D3DC131F010129 /* Pods_TLGeniusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19594D336992915B51DC992C /* Pods_TLGeniusTests.framework */; };
+		653DCC4234BB6666BABA27C5 /* Pods_TLGenius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397896F1E8B51305AA79920C /* Pods_TLGenius.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +82,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		081395099DB664632CACF0AE /* Pods-TLGeniusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLGeniusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLGeniusTests/Pods-TLGeniusTests.release.xcconfig"; sourceTree = "<group>"; };
+		1803D394214B8BDE009E7BC7 /* LivingRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomViewController.swift; sourceTree = "<group>"; };
+		18109C6A213EB83D00BACECD /* SelectBandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBandViewController.swift; sourceTree = "<group>"; };
+		181BCE03213924DE00465354 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		181FF071215A301100A233EB /* AdvanceSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceSettingsVC.swift; sourceTree = "<group>"; };
+		181FF075215A307600A233EB /* AdvanceSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceSettingsCell.swift; sourceTree = "<group>"; };
+		181FF078215A4F4300A233EB /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		18346A1121367981006BE6BC /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		18346A1A2136AFFE006BE6BC /* DiscoveredBulbsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredBulbsViewController.swift; sourceTree = "<group>"; };
+		184911E0212E899400921FC0 /* AlertHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHistoryViewController.swift; sourceTree = "<group>"; };
+		184911E2212E914600921FC0 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		184911E4212EB48D00921FC0 /* WifiListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiListViewController.swift; sourceTree = "<group>"; };
+		18497B0B211ACF9A00D3B0F4 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		18497B0D211AD10300D3B0F4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18497B0F211B0A2B00D3B0F4 /* ForgotPwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPwdViewController.swift; sourceTree = "<group>"; };
+		18497B11211B0A4000D3B0F4 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		18497B13211B0A6D00D3B0F4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		185407FA2158BA9A0002B5F3 /* EmergencyContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsViewController.swift; sourceTree = "<group>"; };
+		185407FD2158C6EA0002B5F3 /* FAQVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FAQVC.swift; path = "../../../../../../../../Downloads/TLGenius 2/TLGenius/Help/FAQVC.swift"; sourceTree = "<group>"; };
+		185407FE2158C6EA0002B5F3 /* HelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpVC.swift; path = "../../../../../../../../Downloads/TLGenius 2/TLGenius/Help/HelpVC.swift"; sourceTree = "<group>"; };
+		185407FF2158C6EA0002B5F3 /* HowToVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HowToVC.swift; path = "../../../../../../../../Downloads/TLGenius 2/TLGenius/Help/HowToVC.swift"; sourceTree = "<group>"; };
+		185408032158D3790002B5F3 /* HowTotblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HowTotblCell.swift; path = "../../../../../../../../Downloads/TLGenius 2/TLGenius/cell/HowTotblCell.swift"; sourceTree = "<group>"; };
+		185408042158D3790002B5F3 /* HelptblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelptblCell.swift; path = "../../../../../../../../Downloads/TLGenius 2/TLGenius/cell/HelptblCell.swift"; sourceTree = "<group>"; };
+		1854080A2158DB900002B5F3 /* GasSenseSubscriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasSenseSubscriptionVC.swift; sourceTree = "<group>"; };
+		185F31312137E34300FF9E7D /* BulbDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbDetailsViewController.swift; sourceTree = "<group>"; };
 		1860BECA21196B4A00A03ED6 /* TLGenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLGenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1860BECD21196B4A00A03ED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1860BECF21196B4A00A03ED6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1860BED221196B4A00A03ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1860BED421196B4C00A03ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1860BED721196B4C00A03ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1860BED921196B4C00A03ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +119,36 @@
 		1860BEE921196B4D00A03ED6 /* TLGeniusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLGeniusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1860BEED21196B4D00A03ED6 /* TLGeniusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLGeniusUITests.swift; sourceTree = "<group>"; };
 		1860BEEF21196B4D00A03ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18762B47213EAF560046E028 /* AddRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomViewController.swift; sourceTree = "<group>"; };
+		18793CDF212D3BF1009A989F /* DiscoverHubsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverHubsViewController.swift; sourceTree = "<group>"; };
+		18793CE1212D3FE1009A989F /* HubsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubsTableViewCell.swift; sourceTree = "<group>"; };
+		18793CE3212D5EAC009A989F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		18793CE5212D6B87009A989F /* SubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
+		1883552F21229D5A006D99D6 /* EnterOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterOTPViewController.swift; sourceTree = "<group>"; };
+		1883553121229F5F006D99D6 /* SetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordViewController.swift; sourceTree = "<group>"; };
+		1887DFAD211C4AC10085690E /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		1887DFAF211C4BCB0085690E /* ResetPwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPwdViewController.swift; sourceTree = "<group>"; };
+		1887DFB6211C619E0085690E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1887DFB8211C62740085690E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1887DFBA211C636F0085690E /* ConstantStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantStrings.swift; sourceTree = "<group>"; };
+		1887DFBC211C799B0085690E /* MobileVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileVerificationViewController.swift; sourceTree = "<group>"; };
+		18902CD5213EAC390038B968 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18902CD7213EACEC0038B968 /* BandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandViewController.swift; sourceTree = "<group>"; };
+		18902CD9213EACED0038B968 /* CreateGroup1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroup1ViewController.swift; sourceTree = "<group>"; };
+		18902CDA213EACED0038B968 /* GroupsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsListViewController.swift; sourceTree = "<group>"; };
+		18939994213FCEC1001C8A2C /* BandSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandSignInViewController.swift; sourceTree = "<group>"; };
+		18939996213FEDB7001C8A2C /* BandSubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandSubscriptionViewController.swift; sourceTree = "<group>"; };
+		189AB5D721479A8600CEAACA /* MyRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRequestsViewController.swift; sourceTree = "<group>"; };
+		189AB5D92147B9B200CEAACA /* SendRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequestViewController.swift; sourceTree = "<group>"; };
+		189AB5DC2147CD4E00CEAACA /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		19594D336992915B51DC992C /* Pods_TLGeniusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLGeniusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B365D76007C4D51E4C433CA /* Pods_TLGeniusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLGeniusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		397896F1E8B51305AA79920C /* Pods_TLGenius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLGenius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		899D20CDE1EFA895CB67746B /* Pods-TLGeniusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLGeniusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLGeniusUITests/Pods-TLGeniusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCD59582FCC7763AA4331B6A /* Pods-TLGenius.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLGenius.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLGenius/Pods-TLGenius.debug.xcconfig"; sourceTree = "<group>"; };
+		BCDB96C3A3B979CDF956AB31 /* Pods-TLGeniusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLGeniusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLGeniusUITests/Pods-TLGeniusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDEAD4A41C968C86019E965B /* Pods-TLGeniusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLGeniusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLGeniusTests/Pods-TLGeniusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8526CB720928EA0DDECECE /* Pods-TLGenius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLGenius.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLGenius/Pods-TLGenius.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +156,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189AB5DD2147CD4E00CEAACA /* Contacts.framework in Frameworks */,
+				653DCC4234BB6666BABA27C5 /* Pods_TLGenius.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B3DE96E4D3DC131F010129 /* Pods_TLGeniusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +173,159 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E3C998EAD0AA8734C76F62 /* Pods_TLGeniusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1801058D213EB2880060DE4F /* Hubs and Wifi */ = {
+			isa = PBXGroup;
+			children = (
+				18793CDF212D3BF1009A989F /* DiscoverHubsViewController.swift */,
+				184911E4212EB48D00921FC0 /* WifiListViewController.swift */,
+			);
+			path = "Hubs and Wifi";
+			sourceTree = "<group>";
+		};
+		1801058E213EB2AD0060DE4F /* Add Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				18762B47213EAF560046E028 /* AddRoomViewController.swift */,
+			);
+			path = "Add Rooms";
+			sourceTree = "<group>";
+		};
+		1801058F213EB2CB0060DE4F /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				181BCE03213924DE00465354 /* CreateGroupViewController.swift */,
+				18902CD9213EACED0038B968 /* CreateGroup1ViewController.swift */,
+				18902CDA213EACED0038B968 /* GroupsListViewController.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		18010590213EB2E60060DE4F /* Add Band */ = {
+			isa = PBXGroup;
+			children = (
+				18902CD7213EACEC0038B968 /* BandViewController.swift */,
+				18109C6A213EB83D00BACECD /* SelectBandViewController.swift */,
+				18939994213FCEC1001C8A2C /* BandSignInViewController.swift */,
+				18939996213FEDB7001C8A2C /* BandSubscriptionViewController.swift */,
+			);
+			path = "Add Band";
+			sourceTree = "<group>";
+		};
+		18010591213EB2FB0060DE4F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				18793CE3212D5EAC009A989F /* MenuViewController.swift */,
+				185408072158DA650002B5F3 /* My Subscriptions */,
+				184911E0212E899400921FC0 /* AlertHistoryViewController.swift */,
+				184911E2212E914600921FC0 /* PreferencesViewController.swift */,
+				185407FA2158BA9A0002B5F3 /* EmergencyContactsViewController.swift */,
+				185407FC2158C6D10002B5F3 /* Help */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		181BCDFF21390C5000465354 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18497B13211B0A6D00D3B0F4 /* HomeViewController.swift */,
+				181FF070215A2FFA00A233EB /* RoomDetail */,
+				189AB5D721479A8600CEAACA /* MyRequestsViewController.swift */,
+				189AB5D92147B9B200CEAACA /* SendRequestViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		181BCE0021390C5C00465354 /* Bulbs */ = {
+			isa = PBXGroup;
+			children = (
+				18346A1A2136AFFE006BE6BC /* DiscoveredBulbsViewController.swift */,
+				185F31312137E34300FF9E7D /* BulbDetailsViewController.swift */,
+			);
+			path = Bulbs;
+			sourceTree = "<group>";
+		};
+		181FF070215A2FFA00A233EB /* RoomDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1803D394214B8BDE009E7BC7 /* LivingRoomViewController.swift */,
+				181FF071215A301100A233EB /* AdvanceSettingsVC.swift */,
+			);
+			path = RoomDetail;
+			sourceTree = "<group>";
+		};
+		181FF077215A4F1900A233EB /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				181FF078215A4F4300A233EB /* NotificationsViewController.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		18346A162136AF83006BE6BC /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				1860BECF21196B4A00A03ED6 /* ViewController.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		18346A172136AF94006BE6BC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18497B0D211AD10300D3B0F4 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		18346A182136AFA0006BE6BC /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				18497B0F211B0A2B00D3B0F4 /* ForgotPwdViewController.swift */,
+				1887DFAD211C4AC10085690E /* OTPViewController.swift */,
+				1887DFAF211C4BCB0085690E /* ResetPwdViewController.swift */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		18346A192136AFC2006BE6BC /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				1887DFBC211C799B0085690E /* MobileVerificationViewController.swift */,
+				1883552F21229D5A006D99D6 /* EnterOTPViewController.swift */,
+				1883553121229F5F006D99D6 /* SetPasswordViewController.swift */,
+				18497B11211B0A4000D3B0F4 /* RegistrationViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		185407FC2158C6D10002B5F3 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				185407FE2158C6EA0002B5F3 /* HelpVC.swift */,
+				185407FD2158C6EA0002B5F3 /* FAQVC.swift */,
+				185407FF2158C6EA0002B5F3 /* HowToVC.swift */,
+				185408042158D3790002B5F3 /* HelptblCell.swift */,
+				185408032158D3790002B5F3 /* HowTotblCell.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		185408072158DA650002B5F3 /* My Subscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				18793CE5212D6B87009A989F /* SubscriptionViewController.swift */,
+				1854080A2158DB900002B5F3 /* GasSenseSubscriptionVC.swift */,
+			);
+			path = "My Subscriptions";
+			sourceTree = "<group>";
+		};
 		1860BEC121196B4A00A03ED6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +333,8 @@
 				1860BEE121196B4D00A03ED6 /* TLGeniusTests */,
 				1860BEEC21196B4D00A03ED6 /* TLGeniusUITests */,
 				1860BECB21196B4A00A03ED6 /* Products */,
+				189AB5DB2147CD4D00CEAACA /* Frameworks */,
+				29234C85CB61763D10C788F6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +352,26 @@
 			isa = PBXGroup;
 			children = (
 				1860BECD21196B4A00A03ED6 /* AppDelegate.swift */,
-				1860BECF21196B4A00A03ED6 /* ViewController.swift */,
-				1860BED121196B4A00A03ED6 /* Main.storyboard */,
+				18346A162136AF83006BE6BC /* Slider */,
+				18346A172136AF94006BE6BC /* Login */,
+				18346A182136AFA0006BE6BC /* Forgot Password */,
+				18346A192136AFC2006BE6BC /* Registration */,
+				181BCDFF21390C5000465354 /* Home */,
+				181BCE0021390C5C00465354 /* Bulbs */,
+				1801058D213EB2880060DE4F /* Hubs and Wifi */,
+				1801058E213EB2AD0060DE4F /* Add Rooms */,
+				1801058F213EB2CB0060DE4F /* Groups */,
+				18010590213EB2E60060DE4F /* Add Band */,
+				18010591213EB2FB0060DE4F /* Menu */,
+				181FF077215A4F1900A233EB /* Notifications */,
+				181FF075215A307600A233EB /* AdvanceSettingsCell.swift */,
+				18793CE1212D3FE1009A989F /* HubsTableViewCell.swift */,
+				18497B0B211ACF9A00D3B0F4 /* SliderCollectionViewCell.swift */,
+				1887DFB8211C62740085690E /* Constants.swift */,
+				1887DFB6211C619E0085690E /* Utils.swift */,
+				1887DFBA211C636F0085690E /* ConstantStrings.swift */,
+				18346A1121367981006BE6BC /* Reachability.swift */,
+				18902CD5213EAC390038B968 /* Main.storyboard */,
 				1860BED421196B4C00A03ED6 /* Assets.xcassets */,
 				1860BED621196B4C00A03ED6 /* LaunchScreen.storyboard */,
 				1860BED921196B4C00A03ED6 /* Info.plist */,
@@ -125,6 +397,30 @@
 			path = TLGeniusUITests;
 			sourceTree = "<group>";
 		};
+		189AB5DB2147CD4D00CEAACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				189AB5DC2147CD4E00CEAACA /* Contacts.framework */,
+				397896F1E8B51305AA79920C /* Pods_TLGenius.framework */,
+				19594D336992915B51DC992C /* Pods_TLGeniusTests.framework */,
+				2B365D76007C4D51E4C433CA /* Pods_TLGeniusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29234C85CB61763D10C788F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCD59582FCC7763AA4331B6A /* Pods-TLGenius.debug.xcconfig */,
+				CE8526CB720928EA0DDECECE /* Pods-TLGenius.release.xcconfig */,
+				CDEAD4A41C968C86019E965B /* Pods-TLGeniusTests.debug.xcconfig */,
+				081395099DB664632CACF0AE /* Pods-TLGeniusTests.release.xcconfig */,
+				BCDB96C3A3B979CDF956AB31 /* Pods-TLGeniusUITests.debug.xcconfig */,
+				899D20CDE1EFA895CB67746B /* Pods-TLGeniusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +428,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1860BEF221196B4D00A03ED6 /* Build configuration list for PBXNativeTarget "TLGenius" */;
 			buildPhases = (
+				153CAE14A0F714D92986E871 /* [CP] Check Pods Manifest.lock */,
 				1860BEC621196B4A00A03ED6 /* Sources */,
 				1860BEC721196B4A00A03ED6 /* Frameworks */,
 				1860BEC821196B4A00A03ED6 /* Resources */,
+				F4315130F19D6F59D9C7C18C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +447,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1860BEF521196B4D00A03ED6 /* Build configuration list for PBXNativeTarget "TLGeniusTests" */;
 			buildPhases = (
+				FF22AEA81DB7A36AE326BA26 /* [CP] Check Pods Manifest.lock */,
 				1860BEDA21196B4D00A03ED6 /* Sources */,
 				1860BEDB21196B4D00A03ED6 /* Frameworks */,
 				1860BEDC21196B4D00A03ED6 /* Resources */,
@@ -167,6 +466,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1860BEF821196B4D00A03ED6 /* Build configuration list for PBXNativeTarget "TLGeniusUITests" */;
 			buildPhases = (
+				2A8CA83417E157E7DF98724F /* [CP] Check Pods Manifest.lock */,
 				1860BEE521196B4D00A03ED6 /* Sources */,
 				1860BEE621196B4D00A03ED6 /* Frameworks */,
 				1860BEE721196B4D00A03ED6 /* Resources */,
@@ -231,7 +531,7 @@
 			files = (
 				1860BED821196B4C00A03ED6 /* LaunchScreen.storyboard in Resources */,
 				1860BED521196B4C00A03ED6 /* Assets.xcassets in Resources */,
-				1860BED321196B4A00A03ED6 /* Main.storyboard in Resources */,
+				18902CD6213EAC3A0038B968 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +551,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		153CAE14A0F714D92986E871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TLGenius-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A8CA83417E157E7DF98724F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TLGeniusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4315130F19D6F59D9C7C18C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TLGenius/Pods-TLGenius-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+				"${BUILT_PRODUCTS_DIR}/iOS-Color-Picker/iOS_Color_Picker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Color_Picker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLGenius/Pods-TLGenius-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF22AEA81DB7A36AE326BA26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TLGeniusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1860BEC621196B4A00A03ED6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185408062158D37A0002B5F3 /* HelptblCell.swift in Sources */,
+				185408052158D37A0002B5F3 /* HowTotblCell.swift in Sources */,
+				185F31322137E34300FF9E7D /* BulbDetailsViewController.swift in Sources */,
+				185408012158C6EA0002B5F3 /* HelpVC.swift in Sources */,
+				18497B12211B0A4000D3B0F4 /* RegistrationViewController.swift in Sources */,
+				1887DFB9211C62740085690E /* Constants.swift in Sources */,
+				18497B0E211AD10300D3B0F4 /* LoginViewController.swift in Sources */,
+				18497B10211B0A2B00D3B0F4 /* ForgotPwdViewController.swift in Sources */,
+				18497B0C211ACF9A00D3B0F4 /* SliderCollectionViewCell.swift in Sources */,
+				18902CDF213EACEE0038B968 /* GroupsListViewController.swift in Sources */,
+				18346A1B2136AFFE006BE6BC /* DiscoveredBulbsViewController.swift in Sources */,
+				189AB5DA2147B9B200CEAACA /* SendRequestViewController.swift in Sources */,
+				184911E3212E914600921FC0 /* PreferencesViewController.swift in Sources */,
+				1887DFB0211C4BCB0085690E /* ResetPwdViewController.swift in Sources */,
+				18793CE0212D3BF1009A989F /* DiscoverHubsViewController.swift in Sources */,
+				1887DFB7211C619E0085690E /* Utils.swift in Sources */,
+				184911E5212EB48D00921FC0 /* WifiListViewController.swift in Sources */,
+				18109C6B213EB83D00BACECD /* SelectBandViewController.swift in Sources */,
+				185408002158C6EA0002B5F3 /* FAQVC.swift in Sources */,
+				1887DFAE211C4AC10085690E /* OTPViewController.swift in Sources */,
+				18793CE6212D6B87009A989F /* SubscriptionViewController.swift in Sources */,
+				1887DFBB211C636F0085690E /* ConstantStrings.swift in Sources */,
+				1854080B2158DB900002B5F3 /* GasSenseSubscriptionVC.swift in Sources */,
+				18939997213FEDB7001C8A2C /* BandSubscriptionViewController.swift in Sources */,
+				18793CE2212D3FE1009A989F /* HubsTableViewCell.swift in Sources */,
+				184911E1212E899400921FC0 /* AlertHistoryViewController.swift in Sources */,
+				18346A1221367981006BE6BC /* Reachability.swift in Sources */,
 				1860BED021196B4A00A03ED6 /* ViewController.swift in Sources */,
+				18902CDE213EACEE0038B968 /* CreateGroup1ViewController.swift in Sources */,
+				189AB5D821479A8600CEAACA /* MyRequestsViewController.swift in Sources */,
+				18497B14211B0A6D00D3B0F4 /* HomeViewController.swift in Sources */,
+				18793CE4212D5EAC009A989F /* MenuViewController.swift in Sources */,
+				181FF076215A307600A233EB /* AdvanceSettingsCell.swift in Sources */,
+				1883553021229D5A006D99D6 /* EnterOTPViewController.swift in Sources */,
+				181BCE04213924DE00465354 /* CreateGroupViewController.swift in Sources */,
+				18762B48213EAF560046E028 /* AddRoomViewController.swift in Sources */,
+				185407FB2158BA9A0002B5F3 /* EmergencyContactsViewController.swift in Sources */,
+				181FF072215A301100A233EB /* AdvanceSettingsVC.swift in Sources */,
+				181FF079215A4F4300A233EB /* NotificationsViewController.swift in Sources */,
+				185408022158C6EA0002B5F3 /* HowToVC.swift in Sources */,
 				1860BECE21196B4A00A03ED6 /* AppDelegate.swift in Sources */,
+				1887DFBD211C799B0085690E /* MobileVerificationViewController.swift in Sources */,
+				18939995213FCEC1001C8A2C /* BandSignInViewController.swift in Sources */,
+				1883553221229F5F006D99D6 /* SetPasswordViewController.swift in Sources */,
+				1803D395214B8BDE009E7BC7 /* LivingRoomViewController.swift in Sources */,
+				18902CDC213EACEE0038B968 /* BandViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +716,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1860BED121196B4A00A03ED6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1860BED221196B4A00A03ED6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1860BED621196B4C00A03ED6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +778,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +832,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -428,40 +843,53 @@
 		};
 		1860BEF321196B4D00A03ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD59582FCC7763AA4331B6A /* Pods-TLGenius.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DEUGLO INFOSYSTEM PRIVATE LIMITED (58SCPADV97)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 58SCPADV97;
 				INFOPLIST_FILE = TLGenius/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = deuglo.TLGenius;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deuglo.tlgenius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "406e1c93-ba1b-4be9-a639-4499d2688e49";
+				PROVISIONING_PROFILE_SPECIFIER = TLGenius_Adhoc_Profile;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1860BEF421196B4D00A03ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8526CB720928EA0DDECECE /* Pods-TLGenius.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DEUGLO INFOSYSTEM PRIVATE LIMITED (58SCPADV97)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 58SCPADV97;
 				INFOPLIST_FILE = TLGenius/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = deuglo.TLGenius;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deuglo.tlgenius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "406e1c93-ba1b-4be9-a639-4499d2688e49";
+				PROVISIONING_PROFILE_SPECIFIER = TLGenius_Adhoc_Profile;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1860BEF621196B4D00A03ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDEAD4A41C968C86019E965B /* Pods-TLGeniusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +910,7 @@
 		};
 		1860BEF721196B4D00A03ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 081395099DB664632CACF0AE /* Pods-TLGeniusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +931,7 @@
 		};
 		1860BEF921196B4D00A03ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCDB96C3A3B979CDF956AB31 /* Pods-TLGeniusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +951,7 @@
 		};
 		1860BEFA21196B4D00A03ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899D20CDE1EFA895CB67746B /* Pods-TLGeniusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,7 +979,7 @@
 				1860BEF121196B4D00A03ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1860BEF221196B4D00A03ED6 /* Build configuration list for PBXNativeTarget "TLGenius" */ = {
 			isa = XCConfigurationList;
@@ -557,7 +988,7 @@
 				1860BEF421196B4D00A03ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1860BEF521196B4D00A03ED6 /* Build configuration list for PBXNativeTarget "TLGeniusTests" */ = {
 			isa = XCConfigurationList;
@@ -566,7 +997,7 @@
 				1860BEF721196B4D00A03ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1860BEF821196B4D00A03ED6 /* Build configuration list for PBXNativeTarget "TLGeniusUITests" */ = {
 			isa = XCConfigurationList;
@@ -575,7 +1006,7 @@
 				1860BEFA21196B4D00A03ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

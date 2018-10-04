@@ -1,0 +1,24 @@
+PODS:
+  - iOS-Color-Picker (1.2)
+  - SwiftSocket (2.0.2)
+  - XLPagerTabStrip (8.0.1)
+
+DEPENDENCIES:
+  - iOS-Color-Picker
+  - SwiftSocket
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - iOS-Color-Picker
+    - SwiftSocket
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  iOS-Color-Picker: 4284a4d744a7cafe9d22d4b66eefc45342b80f1d
+  SwiftSocket: 6f4c9c63fbc5c1d61188936bb3c599fd546f40ae
+  XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
+
+PODFILE CHECKSUM: ba503095d2319da32cca156ace9675356c4714e3
+
+COCOAPODS: 1.5.3
