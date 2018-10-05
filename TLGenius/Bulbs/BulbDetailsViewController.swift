@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BulbDetailsViewController: UIViewController,UITextFieldDelegate {
+class BulbDetailsViewController: UIViewController,UITextFieldDelegate,UICollectionViewDelegate,UICollectionViewDataSource {
     @IBOutlet weak var backBtn: UIButton!
     @IBOutlet weak var sosBtn: UIButton!
     @IBOutlet weak var NotifBtn: UIButton!
@@ -27,6 +27,7 @@ class BulbDetailsViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var dropDownBtn : UIButton!
 
     @IBOutlet weak var bulbNameTxtFld : UITextField!
+    @IBOutlet weak var roomIconCollectionVw : UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +53,20 @@ class BulbDetailsViewController: UIViewController,UITextFieldDelegate {
         dropDownBtn.layer.masksToBounds = true
         dropDownBtn.imageEdgeInsets = UIEdgeInsetsMake(0, self.view.frame.size.width-70, 0, 0)
 
+    }
+
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 25
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "RoomCell", for: indexPath) as? SliderCollectionViewCell else {
+            return UICollectionViewCell()
+        }
+        
+        return cell
+        
     }
 
     @IBAction func backBtnClicked(sender: UIButton!) {

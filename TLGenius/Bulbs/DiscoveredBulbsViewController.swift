@@ -19,22 +19,55 @@ class DiscoveredBulbsViewController: UIViewController,UITableViewDelegate,UITabl
     @IBOutlet weak var menuBtn : UIButton!
     @IBOutlet weak var sendRequestBtn: UIButton!
     @IBOutlet weak var requestsBtn : UIButton!
-    @IBOutlet weak var addBtn : UIButton!
 
     @IBOutlet weak var bulbsTblVw: UITableView!
+
+    @IBOutlet weak var addBtn : UIButton!
+    @IBOutlet weak var closeBtn : UIButton!
+    
+    @IBOutlet weak var addListTblVw : UITableView!
+    
+    @IBOutlet weak var blackShadowVw: UIView!
+
 
     var bulbNamesArr = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        addBtn.layer.cornerRadius = 25.0
         bulbsTblVw.tableFooterView = UIView()
 
         bulbNamesArr = ["Bulb 1","Bulb 2","Bulb 3","Bulb 4"];
+        
+        
+        self.view.bringSubview(toFront: addBtn)
+        addBtn.layer.cornerRadius = 25.0
+        closeBtn.layer.cornerRadius = 25.0
+        
+        let dismisstap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DiscoveredBulbsViewController.dismissView))
+        dismisstap.cancelsTouchesInView = false
+        blackShadowVw?.addGestureRecognizer(dismisstap)
+
+    }
+
+    @objc func dismissView() {
+        view.endEditing(true)
+        blackShadowVw.isHidden = true
+        addBtn.isHidden = false
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        blackShadowVw.isHidden = true
+        self.view.bringSubview(toFront: addBtn)
+        addBtn.isHidden = false
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if tableView == addListTblVw {
+            return 1
+        }
+
         return 4
     }
     
@@ -42,15 +75,24 @@ class DiscoveredBulbsViewController: UIViewController,UITableViewDelegate,UITabl
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "HubsCell") as? HubsTableViewCell else {
             return UITableViewCell()
         }
-        cell.nameIdLbl.text = bulbNamesArr[indexPath.row]
-        
+        if tableView == addListTblVw {
+            cell.nameIdLbl.layer.masksToBounds = true
+            cell.nameIdLbl.layer.cornerRadius = 12.0
+            
+        } else {
+            cell.nameIdLbl.text = bulbNamesArr[indexPath.row]
+        }
+
         return cell
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "GoToBulbDetailsScreen", sender: self)
+        if tableView == addListTblVw {
+            self.performSegue(withIdentifier: "GoToBulbDetailsScreen", sender: self)
+        }
     }
     
+
     @IBAction func backBtnClicked(sender: UIButton!) {
         self.navigationController?.popViewController(animated: true)
     }
@@ -75,6 +117,14 @@ class DiscoveredBulbsViewController: UIViewController,UITableViewDelegate,UITabl
     }
 
     @IBAction func addBtnClicked(sender: UIButton!) {
+        blackShadowVw.isHidden = false
+        blackShadowVw.bringSubview(toFront: closeBtn)
+        addBtn.isHidden = true
+    }
+    
+    @IBAction func closeBtnClicked(sender: UIButton!) {
+        blackShadowVw.isHidden = true
+        addBtn.isHidden = false
     }
 
     override func didReceiveMemoryWarning() {
